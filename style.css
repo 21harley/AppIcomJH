@@ -1,0 +1,40 @@
+:root{
+    --body-color:#a2d5f2;
+    --container-color:#40a8c4;
+    --logo-color:#07689f;
+    --txt-color:#ffc93c;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   width: 100%;
+   background-color: var(--body-color);
+   display: grid;
+   grid-template-columns: 20% 60% 20%;
+   grid-template-rows: 20% 60% 20%;
+}
+
+.container{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+    background-color: var(--container-color);
+    border-radius: 50%;
+}
+.logo{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+   height: 40%;
+   width: 40%;
+   border-radius: 50%;
+   background-color: var(--logo-color);
+   color: var(--txt-color);
+   font-size: 600%;
+}
